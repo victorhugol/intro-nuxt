@@ -129,7 +129,7 @@ mudanças.
 
 
 
-## Comandos e deploy da aplicação
+## 4.0 Comandos e deploy da aplicação
 
 Os comandos podem ser diferentes conforme o ***target***(um item do objeto
 principal do arquivo nuxt.config.js)
