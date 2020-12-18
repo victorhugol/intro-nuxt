@@ -63,7 +63,7 @@ No npm :
 O roteamento de páginas em Vuejs normalmente é feito com vue-router,
 e para essas rotas funcionarem é preciso um arquivido de configuração.
 No que tange ao Nuxt, esse trabalho de cofiguração do VueRouter é abstraído,
-precisando somente adicionar um arquivo ****.vue*** na pasta *** pages *** gerada pelo Nuxt.
+precisando somente adicionar um arquivo ****.vue*** na pasta ***pages*** gerada pelo Nuxt.
 
 ### 2.2 Navegação : 
 
@@ -96,16 +96,16 @@ Para linkar a paginas fora da aplicação, usar a tag `<a>`:
 
 
 Este diretório é responsavel por armazenar as views e rotas da aplicação,
-como ja visto anteriormente,  o Nuxt vai usar todos *** .vue *** para criar router
+como ja visto anteriormente,  o Nuxt vai usar todos ***.vue*** para criar router
 da aplicação.
 
 
 ### 3.2 Diretório : components
 
-Este é o repositório onde vai ser armazenado os componentes Vuejs que vão ser usados dentro da *** pages ***
+Este é o repositório onde vai ser armazenado os componentes Vuejs que vão ser usados dentro da ***pages***
 
 Depois de criar o componente, a importanção deste dentro da página não precisa ser feita de maneira manual, o Nuxt é responsável por fazer esse trabalho, usando
-um *** auto import ***
+um ***auto import***
 
 
 
