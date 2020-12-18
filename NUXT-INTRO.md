@@ -21,20 +21,20 @@ Aqui temos a facilidade de usar o nosso gerenciador de pacotes favorito.
 
 Para o yarn : 
 
-    ```bash
-        $ yarn create nuxt-app <project-name>
-    ```
+```bash
+    $ yarn create nuxt-app <project-name>
+```
 
 Para o npx : 
 
-    ```bash
-        $ npx create-nuxt-app <project-name>
-    ```
+```bash
+    $ npx create-nuxt-app <project-name>
+```
 
 Para o npm:
 
-    ```bash
-        $ npm init nuxt-app <project-name>
-    ```
+```bash
+    $ npm init nuxt-app <project-name>
+```
 
 ## Rodando a primeira aplicação
