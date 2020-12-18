@@ -89,7 +89,7 @@ Para linkar a paginas fora da aplicação, usar a tag `<a>`:
 ```
 
 
-## 3.0 Estrutura dos diretórios
+## 3.0 Arquivo e Diretórios
 
 
 ### 3.1 Diretório : pages
@@ -102,10 +102,56 @@ da aplicação.
 
 ### 3.2 Diretório : components
 
-Este é o repositório onde vai ser armazenado os componentes Vuejs que vão ser usados dentro da ***pages***
-
+Este é o repositório onde vai ser armazenado os componentes Vuejs que vão ser usados dentro da ***pages***.
 Depois de criar o componente, a importanção deste dentro da página não precisa ser feita de maneira manual, o Nuxt é responsável por fazer esse trabalho, usando
 um ***auto import***
+
+
+
+### 3.3 Diretório : assets
+
+Este diretório contem os arquivos não compilados, como  : estilos, imagens e fontes
+
+### 3.4 Diretório : static
+
+Este diretorio é diretamente mapeado para o server e contém arquivos que não devem
+ser modificados.
+
+### 3.5 Arquivo : nuxt.config.js
+
+É o unico ponto de configuração do Nuxt, e foi feito caso seja preciso adicionar 
+módulos ou sobrescrever configurações default, este é o lugar certo para aplicar as
+mudanças.
+
+### 3.6 Arquivo : package.json
+
+É o arquivo que contém todas as dependências e scripts da aplicação
+
+
+
+## Comandos e deploy da aplicação
+
+Os comandos podem ser diferentes conforme o ***target***(um item do objeto
+principal do arquivo nuxt.config.js)
+
+```json
+    target : 'server'
+```
+Comandos disponíveis para essa ***target***:
+
+-   nuxt dev
+-   nuxt build
+-   nuxt start
+
+```json
+    target : 'static'
+```
+Comandos disponíveis para essa ***target***:
+
+-   nuxt dev
+-   nuxt generate : Builda a aplicação se for necessário, gera cada rota como um
+HTML e exporta estaticamente para o diretório ***/dist***.
+-   nuxt start : Entrega o ***/dist*** assim como alguns serviços de host(Netlify, Vecel, Surge e etc..) usam para o deploy. É uma ótima forma de testar antes de publicar.
 
 
 
