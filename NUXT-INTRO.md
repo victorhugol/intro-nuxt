@@ -38,3 +38,20 @@ Para o npm:
 ```
 
 ## Rodando a primeira aplicação
+
+Primeiro é preciso entrar na pasta com o nome do projeto e rodar
+os seguintes scripts : 
+
+No yarn : 
+
+```bash
+    yarn dev
+```
+
+No npm : 
+
+```bash
+    npm run dev
+```
+
+
